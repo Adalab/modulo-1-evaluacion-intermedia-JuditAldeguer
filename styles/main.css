@@ -60,4 +60,7 @@
     padding-right: 30px;
     padding-left: 30px;
   }
+  .text {
+    font-size: 40px;
+  }
 }
