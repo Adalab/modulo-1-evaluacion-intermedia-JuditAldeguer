@@ -23,6 +23,7 @@
 .menu-text {
   color: #4a4a4a;
   font-size: 16px;
+  text-decoration: none;
 }
 .text1 {
   padding-right: 20px;
@@ -45,6 +46,18 @@
 .text {
   color: #ffffff;
   font-size: 30px;
+  font-weight: 800;
   text-align: center;
   text-transform: capitalize;
+}
+/* mediaqueris */
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
